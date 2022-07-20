@@ -1,7 +1,7 @@
 # 0x1B. C - Sorting algorithms & Big O
 C - Algorithm & Data structure
 
-## <p align="center">![nice](img align="right" width="300" height="200" src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/248/willy-wonka.png")</p>
+## <p align="center">![nice](img width="300" height="200" src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/248/willy-wonka.png")</p>
 
 ## General objectives
 * To know at least four different sorting algorithms
