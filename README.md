@@ -1,7 +1,7 @@
 # 0x1B. C - Sorting algorithms & Big O
 C - Algorithm & Data structure
 
-## <p align="center">![nice](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/248/willy-wonka.png)</p>
+## <p align="center" width="100" height="100">![nice](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/248/willy-wonka.png)</p>
 
 ## General objectives
 * To know at least four different sorting algorithms
@@ -111,7 +111,7 @@ Please use the “short” notation (don’t use constants). Example: ``O(nk)`` 
 ## Tests
 Here is a quick tip to help you test your sorting algorithms with big sets of random integers: [Random.org](https://alx-intranet.hbtn.io/rltoken/YR-VWQbICB59wZs1eAaI3w)
 
-## Files (9images) & Description
+## Files & Description
 | S/N   |       Files          |        Description  |
 |:-----:|--------------------|:-------------------|
 | 1. |[0-bubble_sort.c](https://github.com/Dikachis/sorting_algorithms/blob/main/0-bubble_sort.c), <br> [0-O](https://github.com/Dikachis/sorting_algorithms/blob/main/0-O) | A function that sorts an array of integers in ascending order using the [Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) algorithm |
