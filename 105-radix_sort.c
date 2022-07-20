@@ -30,7 +30,7 @@ int get_max(int *array, size_t size)
 	if (size < 2)
 		return (0);
 
-	max = array[0];	/* start from first index */
+	max = array[0];  /* start from first index */
 
 	for (i = 1; i < size; i++)
 	{
@@ -60,13 +60,13 @@ void sort_counter(int *array, size_t size, int place)
 	arr_zero_init(position, size);
 
 	for (i = 0; i < size; i++)
-		position[(array[i] / place) % 10] += 1;    /* position at LSD */
+		position[(array[i] / place) % 10] += 1;  /* position at LSD */
 
 	sumPosition = malloc(sizeof(int) * size);
 	if (!sumPosition)
 		return;
 	arr_zero_init(sumPosition, size);
-	sumPosition[0] = position[0];   /* make first index equal */
+	sumPosition[0] = position[0];  /* make first index equal */
 
 	for (j = 1; j < size; j++)
 		sumPosition[j] = position[j] + sumPosition[j - 1];
