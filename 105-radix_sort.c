@@ -27,10 +27,7 @@ int get_max(int *array, size_t size)
 	int max;
 	size_t i;
 
-	if (size < 2)
-		return (0);
-
-	max = array[0];  /* start from first index */
+	max = array[0];	/* start from first index */
 
 	for (i = 1; i < size; i++)
 	{
@@ -54,21 +51,21 @@ void sort_counter(int *array, size_t size, int place)
 	int k, *position, *sumPosition, *sorted;
 	size_t i, j;
 
-	position = malloc(sizeof(int) * size);
+	position = malloc(sizeof(int) * 10);
 	if (!position)
 		return;
-	arr_zero_init(position, size);
+	arr_zero_init(position, 10);
 
 	for (i = 0; i < size; i++)
-		position[(array[i] / place) % 10] += 1;  /* position at LSD */
+		position[(array[i] / place) % 10] += 1;    /* position at LSD */
 
-	sumPosition = malloc(sizeof(int) * size);
+	sumPosition = malloc(sizeof(int) * 10);
 	if (!sumPosition)
 		return;
-	arr_zero_init(sumPosition, size);
-	sumPosition[0] = position[0];  /* make first index equal */
+	arr_zero_init(sumPosition, 10);
+	sumPosition[0] = position[0];   /* make first index equal */
 
-	for (j = 1; j < size; j++)
+	for (j = 1; j < 10; j++)
 		sumPosition[j] = position[j] + sumPosition[j - 1];
 
 	free(position);
@@ -99,10 +96,12 @@ void sort_counter(int *array, size_t size, int place)
  */
 void radix_sort(int *array, size_t size)
 {
-	int max = get_max(array, size), position = 1;
+	int max, position = 1;
 
 	if (!array || size < 2)
 		return;
+
+	max = get_max(array, size);
 
 	while ((max / position) > 0)
 	{
