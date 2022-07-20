@@ -1,9 +1,9 @@
 # 0x1B. C - Sorting algorithms & Big O
 C - Algorithm & Data structure
 
-![funny](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/248/willy-wonka.png)
+<p align="center">![funny](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/248/willy-wonka.png)</p>
 
-[how_you](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/248/willy-wonka.png)
+<p align="center">![how_you](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/248/willy-wonka.png)</p>
 
 ## General objectives
 * To know at least four different sorting algorithms
@@ -28,7 +28,7 @@ C - Algorithm & Data structure
 **GitHub**
 
 ## More Info/lnstructions
-<hr> **Data Structure and Functions**
+<hr> **Data Structure and Functions**</hr>
 - For this project you are given the following ``print_array``, and ``print_list functions``:
 
 ```text
@@ -115,7 +115,7 @@ Here is a quick tip to help you test your sorting algorithms with big sets of ra
 
 ## Files (9images) & Description
 | S/N   |       Files          |        Description  |
-|:-----:|:--------------------:|:-------------------|
+|:-----:|:--------------------|:-------------------|
 | 1. |[0-bubble_sort.c](https://github.com/Dikachis/sorting_algorithms/blob/main/0-bubble_sort.c), <br> [0-O](https://github.com/Dikachis/sorting_algorithms/blob/main/0-O) | A function that sorts an array of integers in ascending order using the [Bubble sort](https://en.wikipedia.org/wiki/Bubble_sort) algorithm |
 |2. | [1-insertion_sort_list.c](https://github.com/Dikachis/sorting_algorithms/blob/main/1-insertion_sort_list.c), <br> [1-O](https://github.com/Dikachis/sorting_algorithms/blob/main/1-O) | A function that sorts a doubly linked list of integers in ascending order using the [Insertion sort](https://en.wikipedia.org/wiki/Insertion_sort) algorithm |
 |3. | [2-selection_sort.c](https://github.com/Dikachis/sorting_algorithms/blob/main/2-selection_sort.c), <br> [2-O](https://github.com/Dikachis/sorting_algorithms/blob/main/2-O)| A function that sorts an array of integers in ascending order using the [Selection sort](https://en.wikipedia.org/wiki/Selection_sort) algorithm |
